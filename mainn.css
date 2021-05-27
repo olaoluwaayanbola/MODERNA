@@ -1,0 +1,52 @@
+body{font-family: Impact, 'Arial Narrow Bold', sans-serif; }
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+.overlay-banner{
+    width: 100%;
+    height:200px;
+    background-color: azure;
+   
+}
+.section_one #navbarNav{
+  display: flex;
+  justify-content: flex-end;
+
+}
+.section_one #navbarNav .nav-item{
+    padding-left: 20px;
+}
+.content-all{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+.imgk{
+    background-image: url('css');
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+@media all and (max-width: 1000px){
+    .navbar-nav{
+        visibility: hidden;
+        height: 20px;
+    }
+}
